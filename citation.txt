@@ -1,0 +1,9 @@
+@inproceedings{REPO147,
+    author = "Zhu, Sijie and Shah, Mubarak and Chen, Chen",
+    booktitle = "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    number = "",
+    pages = "1152-1161",
+    title = "{TransGeo: Transformer Is All You Need for Cross-view Image Geo-localization}",
+    volume = "",
+    year = "2022"
+}
