@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+python -u train.py --lr 0.0001 --batch-size 32 --epochs 1 --multiprocessing-distributed --world-size 1 --rank 0 --save_path ./result --wd 0.03 --asam --rho 2.5 --cos --mining
+python -u train.py --lr 0.00001 --batch-size 32 --epochs 1 --multiprocessing-distributed --world-size 1 --rank 0  --resume ./result/checkpoint.pth.tar --save_path ./result --wd 0.03 --mining --cos --asam --rho 2.5 --sat_res 320 --crop
